@@ -1,15 +1,16 @@
 .table {
     background-color: #8BC34A;
     border-collapse: collapse;
-    width: 70vw;
+    width: 80vw;
 }
 .text-right {
-    padding-right: 10px;
+    padding: 0 10px;
+    text-align: center;
 }
  tr, td, th{
     padding: 0.5em 2%;
 }
-td {
+td, th {
     text-align: center;
 }
 .stats{
