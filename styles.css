@@ -1,0 +1,60 @@
+.table {
+    background-color: #8BC34A;
+    border-collapse: collapse;
+    width: 80vw;
+}
+.text-right {
+    padding-right: 10px;
+}
+ tr, td, th{
+    padding: 0.5em 2%;
+}
+td {
+    text-align: center;
+}
+.stats{
+    text-align: center;
+}
+.stat {
+    display: inline-block;
+    width: 3rem;
+    text-align: center;
+}
+tr:nth-child(odd) {
+    background-color: #2b2b2b;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #6b6b6b;
+    color: white;
+}
+#heading {
+    background-color: #8BC34A;
+    color: #232323;
+}
+#people{
+    width: 1rem;
+    height: 0.8rem;
+}
+#star {
+    width: 1rem;
+    height: 1rem;
+}
+.map-name {
+    color: #8BC34A;
+    text-align: start;
+    padding-left: 10px;
+}
+.map {
+    text-align: start;
+    padding-left: 10px;
+}
+.like {
+    color: #8BC34A;
+}
+.dis {
+    color : #e42121;
+}
+.neut {
+    color: #0f67af;
+}
